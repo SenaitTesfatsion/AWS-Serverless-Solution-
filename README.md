@@ -24,7 +24,7 @@ This project shows building a serverless solution in the AWS cloud. This archite
 * [Create an SNS topic and set up subscriptions](create-an-sns-topic-and-set-up-subscriptions)
 * [Create an AWS Lambda function to publish a message to the SNS topic](create-an-aws-lambda-function-to-publish-a-message-to-the-sns-topic)
 * [Create an API with Amazon API Gateway](create-an-api-with-amazon-api-gateway)
-* [Test the architecture by using API Gateway](test-the-architecture-by-using-api-gateway)
+* [Test the Architecture by using API Gateway](test-the-architecture-by-using-api-gateway)
 * [Cleaning UP](cleaning-up)
 
 
@@ -381,7 +381,7 @@ _After you receive the email message to the specified email address, confirm the
 - For **Generate template**, enter the following command: Action=SendMessage&MessageBody=$input.body instead of the default template
 - Choose **Save**
 
-# Stage 10 - Test the architecture by using API Gateway
+# Stage 10 - Test the Architecture by using API Gateway
 - In the **API Gateway** console, return to the **POST - Method Execution** page and choose **Test**
 - In the **Request Body** box, enter:
 ~~~
@@ -391,7 +391,7 @@ _After you receive the email message to the specified email address, confirm the
 - Choose **Test**
 - The “Successfully completed execution” message with the 200 response in the logs on the right should appear and you will receive an email notification with the new entry.
 
-# Stage 11 - Cleaning up
+# Stage 11 - Cleaning Up
 
 ### A. Delete the DynamoDB table
 - Open the DynamoDB console
