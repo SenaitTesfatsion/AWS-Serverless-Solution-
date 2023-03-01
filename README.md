@@ -1,6 +1,8 @@
 # Building A Serverless Solution In The AWS Cloud
 This project shows building a serverless solution in the AWS cloud. This architecture is designed for a web backend with decoupled application components. It is also designed to easily scale in and out as demand changes.
 
+![serverless](https://user-images.githubusercontent.com/110143245/222287619-b02ab3d3-9c14-4a86-953c-c6eac72a84e7.png)
+
 # Cloud Tools Used;
 - _AWS Identity and Access Management (IAM) policy and user_
 - _DynamoDB table_
