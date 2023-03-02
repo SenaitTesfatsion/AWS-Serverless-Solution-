@@ -31,7 +31,7 @@ This project shows building a serverless solution in the AWS cloud. This archite
 # Stage 1 – Create IAM Policies 
 ### Stage 1A – Create IAM Policy for the Dynamodb table
 - Sign in to the AWS management console
-- Select the appropriate region
+- Select the us-east-1 region
 - Select **IAM** from the AWS services
 - In the navigation pane, choose **Policies**
 - Choose **Create policy** 
